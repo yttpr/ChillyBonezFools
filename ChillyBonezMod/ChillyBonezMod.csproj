@@ -1,0 +1,413 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>10.0</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+</PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\CordHeaven.png" />
+    <None Remove="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\CordOsman.png" />
+    <None Remove="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\GupHeaven.png" />
+    <None Remove="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\GupOsman.png" />
+    <None Remove="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\HelmHeaven.png" />
+    <None Remove="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\HelmOsman.png" />
+    <None Remove="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\MortHeaven.png" />
+    <None Remove="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\MortOsman.png" />
+    <None Remove="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\PrayHeaven.png" />
+    <None Remove="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\PrayOsman.png" />
+    <None Remove="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\StripHeaven.png" />
+    <None Remove="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\StripOsman.png" />
+    <None Remove="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\WillowHeaven.png" />
+    <None Remove="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\WillowOsman.png" />
+    <None Remove="ChillyBonezMod\aderlineIcon.png" />
+    <None Remove="ChillyBonezMod\beve.png" />
+    <None Remove="ChillyBonezMod\bigballs\champback.png" />
+    <None Remove="ChillyBonezMod\bigballs\champfront.png" />
+    <None Remove="ChillyBonezMod\bigballs\champmenu.png" />
+    <None Remove="ChillyBonezMod\bigballs\champoverworld.png" />
+    <None Remove="ChillyBonezMod\bigballs\hahaballs.png" />
+    <None Remove="ChillyBonezMod\bigballs\manoffmove.png" />
+    <None Remove="ChillyBonezMod\bigballs\manpowerskill.png" />
+    <None Remove="ChillyBonezMod\bigballs\manupmove.png" />
+    <None Remove="ChillyBonezMod\bugger\CCback.png" />
+    <None Remove="ChillyBonezMod\bugger\CCfront.png" />
+    <None Remove="ChillyBonezMod\bugger\CCoverworld.png" />
+    <None Remove="ChillyBonezMod\bugger\crashing.png" />
+    <None Remove="ChillyBonezMod\bugger\glass.png" />
+    <None Remove="ChillyBonezMod\bugger\seamlesspassvie.png" />
+    <None Remove="ChillyBonezMod\bugger\streams.png" />
+    <None Remove="ChillyBonezMod\FuckShitHomoeroticPornImages\blessingIcon.png" />
+    <None Remove="ChillyBonezMod\FuckShitHomoeroticPornImages\PrayerBack.png" />
+    <None Remove="ChillyBonezMod\FuckShitHomoeroticPornImages\PrayerFront.png" />
+    <None Remove="ChillyBonezMod\FuckShitHomoeroticPornImages\PrayerLocked.png" />
+    <None Remove="ChillyBonezMod\FuckShitHomoeroticPornImages\PrayerMenu.png" />
+    <None Remove="ChillyBonezMod\FuckShitHomoeroticPornImages\PrayerOverworld.png" />
+    <None Remove="ChillyBonezMod\FuckShitHomoeroticPornImages\repentIcon.png" />
+    <None Remove="ChillyBonezMod\FuckShitHomoeroticPornImages\wrathIcon.png" />
+    <None Remove="ChillyBonezMod\funlocko\CordisD.png" />
+    <None Remove="ChillyBonezMod\funlocko\CordisH.png" />
+    <None Remove="ChillyBonezMod\funlocko\CordisOS.png" />
+    <None Remove="ChillyBonezMod\funlocko\CordisS.png" />
+    <None Remove="ChillyBonezMod\funlocko\GuppyD.png" />
+    <None Remove="ChillyBonezMod\funlocko\GuppyH.png" />
+    <None Remove="ChillyBonezMod\funlocko\GuppyOS.png" />
+    <None Remove="ChillyBonezMod\funlocko\GuppyS.png" />
+    <None Remove="ChillyBonezMod\funlocko\HSD.png" />
+    <None Remove="ChillyBonezMod\funlocko\HSH.png" />
+    <None Remove="ChillyBonezMod\funlocko\HSOS.png" />
+    <None Remove="ChillyBonezMod\funlocko\HSS.png" />
+    <None Remove="ChillyBonezMod\funlocko\MortisD.png" />
+    <None Remove="ChillyBonezMod\funlocko\MortisH.png" />
+    <None Remove="ChillyBonezMod\funlocko\MortisOS.png" />
+    <None Remove="ChillyBonezMod\funlocko\MortisS.png" />
+    <None Remove="ChillyBonezMod\funlocko\PrayerD.png" />
+    <None Remove="ChillyBonezMod\funlocko\PrayerH.png" />
+    <None Remove="ChillyBonezMod\funlocko\PrayerOS.png" />
+    <None Remove="ChillyBonezMod\funlocko\PrayerS.png" />
+    <None Remove="ChillyBonezMod\funlocko\StripD.png" />
+    <None Remove="ChillyBonezMod\funlocko\StripH.png" />
+    <None Remove="ChillyBonezMod\funlocko\stripOS.png" />
+    <None Remove="ChillyBonezMod\funlocko\StripS.png" />
+    <None Remove="ChillyBonezMod\funlocko\WillowD.png" />
+    <None Remove="ChillyBonezMod\funlocko\WillowH.png" />
+    <None Remove="ChillyBonezMod\funlocko\WillowOS.png" />
+    <None Remove="ChillyBonezMod\funlocko\WillowS.png" />
+    <None Remove="ChillyBonezMod\helmo\forsatingmove.png" />
+    <None Remove="ChillyBonezMod\helmo\headdivemoveset.png" />
+    <None Remove="ChillyBonezMod\helmo\HSback.png" />
+    <None Remove="ChillyBonezMod\helmo\HSfront.png" />
+    <None Remove="ChillyBonezMod\helmo\HSMenu.png" />
+    <None Remove="ChillyBonezMod\helmo\HSoverworld.png" />
+    <None Remove="ChillyBonezMod\helmo\stirmove.png" />
+    <None Remove="ChillyBonezMod\hexerection\hexedIcon.png" />
+    <None Remove="ChillyBonezMod\hexerection\WillowBack.png" />
+    <None Remove="ChillyBonezMod\hexerection\WillowFront.png" />
+    <None Remove="ChillyBonezMod\hexerection\WillowIconFree.png" />
+    <None Remove="ChillyBonezMod\hexerection\WillowIconOpportunity.png" />
+    <None Remove="ChillyBonezMod\hexerection\WillowIconsVeins.png" />
+    <None Remove="ChillyBonezMod\hexerection\WillowMenu.png" />
+    <None Remove="ChillyBonezMod\hexerection\WillowOverworld.png" />
+    <None Remove="ChillyBonezMod\MORTY\apocalypsemort.png" />
+    <None Remove="ChillyBonezMod\MORTY\backmort.png" />
+    <None Remove="ChillyBonezMod\MORTY\frontmort.png" />
+    <None Remove="ChillyBonezMod\MORTY\loadmort.png" />
+    <None Remove="ChillyBonezMod\MORTY\punchmort.png" />
+    <None Remove="ChillyBonezMod\MORTY\smallermort.png" />
+    <None Remove="ChillyBonezMod\MORTY\smallmort.png" />
+    <None Remove="ChillyBonezMod\MultiAttackIcon.png" />
+    <None Remove="ChillyBonezMod\noAnchored\guppyBack.png" />
+    <None Remove="ChillyBonezMod\noAnchored\guppyFront.png" />
+    <None Remove="ChillyBonezMod\noAnchored\guppyMenu.png" />
+    <None Remove="ChillyBonezMod\noAnchored\guppyOverworld.png" />
+    <None Remove="ChillyBonezMod\noAnchored\guppyPassive.png" />
+    <None Remove="ChillyBonezMod\noAnchored\guppySharpen.png" />
+    <None Remove="ChillyBonezMod\noAnchored\guppyShred.png" />
+    <None Remove="ChillyBonezMod\noAnchored\guppySlices.png" />
+    <None Remove="ChillyBonezMod\PlaceholdingSprites\P00.png" />
+    <None Remove="ChillyBonezMod\PlaceholdingSprites\P01.png" />
+    <None Remove="ChillyBonezMod\PlaceholdingSprites\P02.png" />
+    <None Remove="ChillyBonezMod\PlaceholdingSprites\P03.png" />
+    <None Remove="ChillyBonezMod\PlaceholdingSprites\P04.png" />
+    <None Remove="ChillyBonezMod\PlaceholdingSprites\P05.png" />
+    <None Remove="ChillyBonezMod\PlaceholdingSprites\P06.png" />
+    <None Remove="ChillyBonezMod\PlaceholdingSprites\P07.png" />
+    <None Remove="ChillyBonezMod\PlaceholdingSprites\P08.png" />
+    <None Remove="ChillyBonezMod\PlaceholdingSprites\P09.png" />
+    <None Remove="ChillyBonezMod\PlaceholdingSprites\P10.png" />
+    <None Remove="ChillyBonezMod\PlaceholdingSprites\P11.png" />
+    <None Remove="ChillyBonezMod\PlaceholdingSprites\P12.png" />
+    <None Remove="ChillyBonezMod\PlaceholdingSprites\P13.png" />
+    <None Remove="ChillyBonezMod\PlaceholdingSprites\P14.png" />
+    <None Remove="ChillyBonezMod\PlaceholdingSprites\P15.png" />
+    <None Remove="ChillyBonezMod\PlaceholdingSprites\P16.png" />
+    <None Remove="ChillyBonezMod\PlaceholdingSprites\P17.png" />
+    <None Remove="ChillyBonezMod\PlaceholdingSprites\P18.png" />
+    <None Remove="ChillyBonezMod\PlaceholdingSprites\P19.png" />
+    <None Remove="ChillyBonezMod\PPPLACEHOLDER\CombatIconPlaceholder.png" />
+    <None Remove="ChillyBonezMod\PPPLACEHOLDER\ItemPlaceholder.png" />
+    <None Remove="ChillyBonezMod\PPPLACEHOLDER\MenuPlaceholder.png" />
+    <None Remove="ChillyBonezMod\PPPLACEHOLDER\ModIconPlaceholder.png" />
+    <None Remove="ChillyBonezMod\PPPLACEHOLDER\OverworldPlaceholder.png" />
+    <None Remove="ChillyBonezMod\PPPLACEHOLDER\PassivePlaceholder.png" />
+    <None Remove="ChillyBonezMod\PPPLACEHOLDER\PlaceholderFront.png" />
+    <None Remove="ChillyBonezMod\PPPLACEHOLDER\Placeholder_0.png" />
+    <None Remove="ChillyBonezMod\PPPLACEHOLDER\Placeholder_1.png" />
+    <None Remove="ChillyBonezMod\PPPLACEHOLDER\Placeholder_2.png" />
+    <None Remove="ChillyBonezMod\PPPLACEHOLDER\Placeholder_3.png" />
+    <None Remove="ChillyBonezMod\sticko_sprites\ExtraStickBack.png" />
+    <None Remove="ChillyBonezMod\sticko_sprites\ExtraStickFront.png" />
+    <None Remove="ChillyBonezMod\sticko_sprites\stickBack.png" />
+    <None Remove="ChillyBonezMod\sticko_sprites\stickFront.png" />
+    <None Remove="ChillyBonezMod\sticko_sprites\stickGrowth.png" />
+    <None Remove="ChillyBonezMod\sticko_sprites\stickHeal.png" />
+    <None Remove="ChillyBonezMod\sticko_sprites\stickHurt.png" />
+    <None Remove="ChillyBonezMod\sticko_sprites\stickMalnourished.png" />
+    <None Remove="ChillyBonezMod\sticko_sprites\stickMenu.png" />
+    <None Remove="ChillyBonezMod\wireManagement\cordisback.png" />
+    <None Remove="ChillyBonezMod\wireManagement\cordisfront.png" />
+    <None Remove="ChillyBonezMod\wireManagement\cowrdcontrol.png" />
+    <None Remove="ChillyBonezMod\wireManagement\draintheirskin.png" />
+    <None Remove="ChillyBonezMod\wireManagement\freakyback.png" />
+    <None Remove="ChillyBonezMod\wireManagement\freakyfront.png" />
+    <None Remove="ChillyBonezMod\wireManagement\hexpassvie.png" />
+    <None Remove="ChillyBonezMod\wireManagement\slaytheheart.png" />
+    <None Remove="ChillyBonezMod\wireManagement\smallcordis.png" />
+    <None Remove="ChillyBonezMod\wireManagement\smallercordis.png" />
+    <None Remove="ChillyBonezMod\_0\bloodybox.png" />
+    <None Remove="ChillyBonezMod\_0\cyptricshell.png" />
+    <None Remove="ChillyBonezMod\_0\farfetch.png" />
+    <None Remove="ChillyBonezMod\_0\firecacker.png" />
+    <None Remove="ChillyBonezMod\_0\forcedmarch.png" />
+    <None Remove="ChillyBonezMod\_0\holyfinger.png" />
+    <None Remove="ChillyBonezMod\_0\moviativespeaker.png" />
+    <None Remove="ChillyBonezMod\_0\peace.png" />
+    <None Remove="ChillyBonezMod\_0\phonebook.png" />
+    <None Remove="ChillyBonezMod\_0\Pullthestring.png" />
+    <None Remove="ChillyBonezMod\_0\sorrowful.png" />
+    <None Remove="ChillyBonezMod\_0\yougotthis.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\CordHeaven.png" />
+    <EmbeddedResource Include="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\CordOsman.png" />
+    <EmbeddedResource Include="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\GupHeaven.png" />
+    <EmbeddedResource Include="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\GupOsman.png" />
+    <EmbeddedResource Include="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\HelmHeaven.png" />
+    <EmbeddedResource Include="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\HelmOsman.png" />
+    <EmbeddedResource Include="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\MortHeaven.png" />
+    <EmbeddedResource Include="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\MortOsman.png" />
+    <EmbeddedResource Include="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\PrayHeaven.png" />
+    <EmbeddedResource Include="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\PrayOsman.png" />
+    <EmbeddedResource Include="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\StripHeaven.png" />
+    <EmbeddedResource Include="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\StripOsman.png" />
+    <EmbeddedResource Include="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\WillowHeaven.png" />
+    <EmbeddedResource Include="ChillyBonezMod\achievomomononogitmtdktdjrfdktfkhtcmgdhgf_hg_htgmhgtdytf\WillowOsman.png" />
+    <EmbeddedResource Include="ChillyBonezMod\aderlineIcon.png" />
+    <EmbeddedResource Include="ChillyBonezMod\beve.png" />
+    <EmbeddedResource Include="ChillyBonezMod\bigballs\champback.png" />
+    <EmbeddedResource Include="ChillyBonezMod\bigballs\champfront.png" />
+    <EmbeddedResource Include="ChillyBonezMod\bigballs\champmenu.png" />
+    <EmbeddedResource Include="ChillyBonezMod\bigballs\champoverworld.png" />
+    <EmbeddedResource Include="ChillyBonezMod\bigballs\hahaballs.png" />
+    <EmbeddedResource Include="ChillyBonezMod\bigballs\manoffmove.png" />
+    <EmbeddedResource Include="ChillyBonezMod\bigballs\manpowerskill.png" />
+    <EmbeddedResource Include="ChillyBonezMod\bigballs\manupmove.png" />
+    <EmbeddedResource Include="ChillyBonezMod\bugger\CCback.png" />
+    <EmbeddedResource Include="ChillyBonezMod\bugger\CCfront.png" />
+    <EmbeddedResource Include="ChillyBonezMod\bugger\CCoverworld.png" />
+    <EmbeddedResource Include="ChillyBonezMod\bugger\crashing.png" />
+    <EmbeddedResource Include="ChillyBonezMod\bugger\glass.png" />
+    <EmbeddedResource Include="ChillyBonezMod\bugger\seamlesspassvie.png" />
+    <EmbeddedResource Include="ChillyBonezMod\bugger\streams.png" />
+    <EmbeddedResource Include="ChillyBonezMod\FuckShitHomoeroticPornImages\blessingIcon.png" />
+    <EmbeddedResource Include="ChillyBonezMod\FuckShitHomoeroticPornImages\PrayerBack.png" />
+    <EmbeddedResource Include="ChillyBonezMod\FuckShitHomoeroticPornImages\PrayerFront.png" />
+    <EmbeddedResource Include="ChillyBonezMod\FuckShitHomoeroticPornImages\PrayerLocked.png" />
+    <EmbeddedResource Include="ChillyBonezMod\FuckShitHomoeroticPornImages\PrayerMenu.png" />
+    <EmbeddedResource Include="ChillyBonezMod\FuckShitHomoeroticPornImages\PrayerOverworld.png" />
+    <EmbeddedResource Include="ChillyBonezMod\FuckShitHomoeroticPornImages\repentIcon.png" />
+    <EmbeddedResource Include="ChillyBonezMod\FuckShitHomoeroticPornImages\wrathIcon.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\CordisD.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\CordisH.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\CordisOS.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\CordisS.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\GuppyD.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\GuppyH.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\GuppyOS.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\GuppyS.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\HSD.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\HSH.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\HSOS.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\HSS.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\MortisD.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\MortisH.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\MortisOS.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\MortisS.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\PrayerD.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\PrayerH.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\PrayerOS.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\PrayerS.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\StripD.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\StripH.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\stripOS.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\StripS.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\WillowD.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\WillowH.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\WillowOS.png" />
+    <EmbeddedResource Include="ChillyBonezMod\funlocko\WillowS.png" />
+    <EmbeddedResource Include="ChillyBonezMod\helmo\forsatingmove.png" />
+    <EmbeddedResource Include="ChillyBonezMod\helmo\headdivemoveset.png" />
+    <EmbeddedResource Include="ChillyBonezMod\helmo\HSback.png" />
+    <EmbeddedResource Include="ChillyBonezMod\helmo\HSfront.png" />
+    <EmbeddedResource Include="ChillyBonezMod\helmo\HSMenu.png" />
+    <EmbeddedResource Include="ChillyBonezMod\helmo\HSoverworld.png" />
+    <EmbeddedResource Include="ChillyBonezMod\helmo\stirmove.png" />
+    <EmbeddedResource Include="ChillyBonezMod\hexerection\hexedIcon.png" />
+    <EmbeddedResource Include="ChillyBonezMod\hexerection\WillowBack.png" />
+    <EmbeddedResource Include="ChillyBonezMod\hexerection\WillowFront.png" />
+    <EmbeddedResource Include="ChillyBonezMod\hexerection\WillowIconFree.png" />
+    <EmbeddedResource Include="ChillyBonezMod\hexerection\WillowIconOpportunity.png" />
+    <EmbeddedResource Include="ChillyBonezMod\hexerection\WillowIconsVeins.png" />
+    <EmbeddedResource Include="ChillyBonezMod\hexerection\WillowMenu.png" />
+    <EmbeddedResource Include="ChillyBonezMod\hexerection\WillowOverworld.png" />
+    <EmbeddedResource Include="ChillyBonezMod\MORTY\apocalypsemort.png" />
+    <EmbeddedResource Include="ChillyBonezMod\MORTY\backmort.png" />
+    <EmbeddedResource Include="ChillyBonezMod\MORTY\frontmort.png" />
+    <EmbeddedResource Include="ChillyBonezMod\MORTY\loadmort.png" />
+    <EmbeddedResource Include="ChillyBonezMod\MORTY\punchmort.png" />
+    <EmbeddedResource Include="ChillyBonezMod\MORTY\smallermort.png" />
+    <EmbeddedResource Include="ChillyBonezMod\MORTY\smallmort.png" />
+    <EmbeddedResource Include="ChillyBonezMod\MultiAttackIcon.png" />
+    <EmbeddedResource Include="ChillyBonezMod\noAnchored\guppyBack.png" />
+    <EmbeddedResource Include="ChillyBonezMod\noAnchored\guppyFront.png" />
+    <EmbeddedResource Include="ChillyBonezMod\noAnchored\guppyMenu.png" />
+    <EmbeddedResource Include="ChillyBonezMod\noAnchored\guppyOverworld.png" />
+    <EmbeddedResource Include="ChillyBonezMod\noAnchored\guppyPassive.png" />
+    <EmbeddedResource Include="ChillyBonezMod\noAnchored\guppySharpen.png" />
+    <EmbeddedResource Include="ChillyBonezMod\noAnchored\guppyShred.png" />
+    <EmbeddedResource Include="ChillyBonezMod\noAnchored\guppySlices.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PlaceholdingSprites\P00.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PlaceholdingSprites\P01.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PlaceholdingSprites\P02.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PlaceholdingSprites\P03.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PlaceholdingSprites\P04.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PlaceholdingSprites\P05.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PlaceholdingSprites\P06.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PlaceholdingSprites\P07.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PlaceholdingSprites\P08.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PlaceholdingSprites\P09.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PlaceholdingSprites\P10.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PlaceholdingSprites\P11.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PlaceholdingSprites\P12.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PlaceholdingSprites\P13.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PlaceholdingSprites\P14.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PlaceholdingSprites\P15.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PlaceholdingSprites\P16.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PlaceholdingSprites\P17.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PlaceholdingSprites\P18.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PlaceholdingSprites\P19.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PPPLACEHOLDER\CombatIconPlaceholder.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PPPLACEHOLDER\ItemPlaceholder.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PPPLACEHOLDER\MenuPlaceholder.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PPPLACEHOLDER\ModIconPlaceholder.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PPPLACEHOLDER\OverworldPlaceholder.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PPPLACEHOLDER\PassivePlaceholder.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PPPLACEHOLDER\PlaceholderFront.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PPPLACEHOLDER\Placeholder_0.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PPPLACEHOLDER\Placeholder_1.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PPPLACEHOLDER\Placeholder_2.png" />
+    <EmbeddedResource Include="ChillyBonezMod\PPPLACEHOLDER\Placeholder_3.png" />
+    <EmbeddedResource Include="ChillyBonezMod\sticko_sprites\ExtraStickBack.png" />
+    <EmbeddedResource Include="ChillyBonezMod\sticko_sprites\ExtraStickFront.png" />
+    <EmbeddedResource Include="ChillyBonezMod\sticko_sprites\stickBack.png" />
+    <EmbeddedResource Include="ChillyBonezMod\sticko_sprites\stickFront.png" />
+    <EmbeddedResource Include="ChillyBonezMod\sticko_sprites\stickGrowth.png" />
+    <EmbeddedResource Include="ChillyBonezMod\sticko_sprites\stickHeal.png" />
+    <EmbeddedResource Include="ChillyBonezMod\sticko_sprites\stickHurt.png" />
+    <EmbeddedResource Include="ChillyBonezMod\sticko_sprites\stickMalnourished.png" />
+    <EmbeddedResource Include="ChillyBonezMod\sticko_sprites\stickMenu.png" />
+    <EmbeddedResource Include="ChillyBonezMod\wireManagement\cordisback.png" />
+    <EmbeddedResource Include="ChillyBonezMod\wireManagement\cordisfront.png" />
+    <EmbeddedResource Include="ChillyBonezMod\wireManagement\cowrdcontrol.png" />
+    <EmbeddedResource Include="ChillyBonezMod\wireManagement\draintheirskin.png" />
+    <EmbeddedResource Include="ChillyBonezMod\wireManagement\freakyback.png" />
+    <EmbeddedResource Include="ChillyBonezMod\wireManagement\freakyfront.png" />
+    <EmbeddedResource Include="ChillyBonezMod\wireManagement\hexpassvie.png" />
+    <EmbeddedResource Include="ChillyBonezMod\wireManagement\slaytheheart.png" />
+    <EmbeddedResource Include="ChillyBonezMod\wireManagement\smallcordis.png" />
+    <EmbeddedResource Include="ChillyBonezMod\wireManagement\smallercordis.png" />
+    <EmbeddedResource Include="ChillyBonezMod\_0\bloodybox.png" />
+    <EmbeddedResource Include="ChillyBonezMod\_0\cyptricshell.png" />
+    <EmbeddedResource Include="ChillyBonezMod\_0\farfetch.png" />
+    <EmbeddedResource Include="ChillyBonezMod\_0\firecacker.png" />
+    <EmbeddedResource Include="ChillyBonezMod\_0\forcedmarch.png" />
+    <EmbeddedResource Include="ChillyBonezMod\_0\holyfinger.png" />
+    <EmbeddedResource Include="ChillyBonezMod\_0\moviativespeaker.png" />
+    <EmbeddedResource Include="ChillyBonezMod\_0\peace.png" />
+    <EmbeddedResource Include="ChillyBonezMod\_0\phonebook.png" />
+    <EmbeddedResource Include="ChillyBonezMod\_0\Pullthestring.png" />
+    <EmbeddedResource Include="ChillyBonezMod\_0\sorrowful.png" />
+    <EmbeddedResource Include="ChillyBonezMod\_0\yougotthis.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Album">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\Album.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="BrutalAPI">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\BrutalAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="FMODUnity">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\FMODUnity.dll</HintPath>
+    </Reference>
+    <Reference Include="FMODUnityResonance">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\FMODUnityResonance.dll</HintPath>
+    </Reference>
+    <Reference Include="Marosi.SerializableCollections">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\Marosi.SerializableCollections.dll</HintPath>
+    </Reference>
+    <Reference Include="Marosi.Utility">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\Marosi.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\MonoMod.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="YarnSpinner">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\YarnSpinner.dll</HintPath>
+    </Reference>
+    <Reference Include="YarnSpinner.Compiler">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\YarnSpinner.Compiler.dll</HintPath>
+    </Reference>
+    <Reference Include="YarnSpinner.Unity">
+      <HintPath>..\..\..\the folder for references VS\BO Modding Generic Dependencies\YarnSpinner.Unity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
