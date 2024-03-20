@@ -136,6 +136,7 @@
     <None Remove="ChillyBonezMod\PPPLACEHOLDER\Placeholder_1.png" />
     <None Remove="ChillyBonezMod\PPPLACEHOLDER\Placeholder_2.png" />
     <None Remove="ChillyBonezMod\PPPLACEHOLDER\Placeholder_3.png" />
+    <None Remove="ChillyBonezMod\rooms.baloney" />
     <None Remove="ChillyBonezMod\sticko_sprites\ExtraStickBack.png" />
     <None Remove="ChillyBonezMod\sticko_sprites\ExtraStickFront.png" />
     <None Remove="ChillyBonezMod\sticko_sprites\stickBack.png" />
@@ -299,6 +300,7 @@
     <EmbeddedResource Include="ChillyBonezMod\PPPLACEHOLDER\Placeholder_1.png" />
     <EmbeddedResource Include="ChillyBonezMod\PPPLACEHOLDER\Placeholder_2.png" />
     <EmbeddedResource Include="ChillyBonezMod\PPPLACEHOLDER\Placeholder_3.png" />
+    <EmbeddedResource Include="ChillyBonezMod\rooms.baloney" />
     <EmbeddedResource Include="ChillyBonezMod\sticko_sprites\ExtraStickBack.png" />
     <EmbeddedResource Include="ChillyBonezMod\sticko_sprites\ExtraStickFront.png" />
     <EmbeddedResource Include="ChillyBonezMod\sticko_sprites\stickBack.png" />
