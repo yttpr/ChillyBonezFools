@@ -12,7 +12,7 @@ using UnityEngine;
 #nullable disable
 namespace ChillyBonezMod
 {
-  [BepInPlugin("ChillyBonez.DreamOfAFlarb", "Chilly Bonez Foolz", "1.1.2")]
+  [BepInPlugin("ChillyBonez.DreamOfAFlarb", "Chilly Bonez Foolz", "1.1.3")]
     [BepInDependency("Bones404.BrutalAPI", (BepInDependency.DependencyFlags)1)]
     public class WhereDaFlarbz : BaseUnityPlugin
   {

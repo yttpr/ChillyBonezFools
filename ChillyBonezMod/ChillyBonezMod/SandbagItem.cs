@@ -35,8 +35,9 @@ namespace ChillyBonezMod
       DamageType specialDamage = 0)
     {
       DamageInfo damageInfo = orig(self, amount, killer, deathType, targetSlotOffset, addHealthMana, directDamage, ignoresShield, specialDamage);
-      if (self.HasUsableItem && self.HeldItem is SandbagWearable && self.GetStoredValue(SandbagCondition.Pain) >= 12 && killer != null)
+      if (self.HasUsableItem && self.HeldItem is SandbagWearable && self.GetStoredValue(SandbagCondition.Pain) >= 12 && killer != null && self.GetStoredValue((UnitStoredValueNames)28282901) <= 0)
       {
+                self.SetStoredValue((UnitStoredValueNames)28282901, 1);
         SandBagEffect instance = ScriptableObject.CreateInstance<SandBagEffect>();
         instance.kill = killer;
         CombatManager.Instance.AddSubAction((CombatAction) new EffectAction(ExtensionMethods.ToEffectInfoArray(new Effect[1]
