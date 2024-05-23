@@ -17,13 +17,13 @@ namespace ChillyBonezMod
 
     public override void CustomOnTriggerAttached(IWearableEffector caller)
     {
-      ((BaseWearableSO) this).CustomOnTriggerAttached(caller);
+      base.CustomOnTriggerAttached(caller);
       DoubleRupturedEffectWearable.Multiply *= 2;
     }
 
     public override void CustomOnTriggerDettached(IWearableEffector caller)
     {
-      ((BaseWearableSO) this).CustomOnTriggerDettached(caller);
+      base.CustomOnTriggerDettached(caller);
       DoubleRupturedEffectWearable.Multiply /= 2;
     }
 
