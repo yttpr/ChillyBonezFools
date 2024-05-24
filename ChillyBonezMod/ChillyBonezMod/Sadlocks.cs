@@ -705,12 +705,132 @@ namespace ChillyBonezMod
       }
     }
 
-    public static void Chorder(bool defaultUnlocked)
-    {
-      // ISSUE: unable to decompile the method.
-    }
+        public static void Chorder(bool defaultUnlocked)
+        {
+            //IL_007e: Unknown result type (might be due to invalid IL or missing references)
+            //IL_00c5: Unknown result type (might be due to invalid IL or missing references)
+            //IL_00ca: Unknown result type (might be due to invalid IL or missing references)
+            //IL_00d4: Unknown result type (might be due to invalid IL or missing references)
+            //IL_00da: Expected O, but got Unknown
+            //IL_0137: Unknown result type (might be due to invalid IL or missing references)
+            //IL_017e: Unknown result type (might be due to invalid IL or missing references)
+            //IL_0183: Unknown result type (might be due to invalid IL or missing references)
+            //IL_0204: Unknown result type (might be due to invalid IL or missing references)
+            //IL_0290: Unknown result type (might be due to invalid IL or missing references)
+            //IL_0295: Unknown result type (might be due to invalid IL or missing references)
+            //IL_029f: Unknown result type (might be due to invalid IL or missing references)
+            //IL_02a5: Expected O, but got Unknown
+            //IL_0302: Unknown result type (might be due to invalid IL or missing references)
+            //IL_035a: Unknown result type (might be due to invalid IL or missing references)
+            //IL_035f: Unknown result type (might be due to invalid IL or missing references)
+            FashionCondition.Setup();
+            CordisEffectItem cordisEffectItem = new CordisEffectItem();
+            ((Item)cordisEffectItem).name = "Freaky Fashion";
+            ((Item)cordisEffectItem).flavorText = "\"It's too bold for you to handle.\"";
+            ((Item)cordisEffectItem).description = "On manually moving to a position Opposing an enemy, 100% chance to apply 1 Stunned to them. On activation, decrease this chance by 35%.";
+            ((Item)cordisEffectItem).sprite = ResourceLoader.LoadSprite("CordisOS.png");
+            ((Item)cordisEffectItem).trigger = TriggerCalls.OnSwapTo;
+            ((Item)cordisEffectItem).triggerConditions = new EffectorConditionSO[1] { ScriptableObject.CreateInstance<FashionCondition>() };
+            ((Item)cordisEffectItem).consumeTrigger = TriggerCalls.Count;
+            ((Item)cordisEffectItem).unlockableID = (UnlockableID)454448;
+            ((Item)cordisEffectItem).itemPools = (ItemPools)1;
+            ((Item)cordisEffectItem).shopPrice = 8;
+            ((Item)cordisEffectItem).startsLocked = false;
+            ((EffectItem)cordisEffectItem).immediate = true;
+            ((Item)cordisEffectItem).namePopup = true;
+            ((Item)cordisEffectItem).consumedOnUse = false;
+            ((EffectItem)cordisEffectItem).effects = (Effect[])(object)new Effect[1]
+            {
+            new Effect((EffectSO)ScriptableObject.CreateInstance<ApplyStunnedEffect>(), 1, (IntentType?)null, Slots.Front, (EffectConditionSO)null)
+            };
+            EffectItem val = new EffectItem();
+            ((Item)val).name = "Weaving Flesh";
+            ((Item)val).flavorText = "\"I'll bend it to my liking.\"";
+            ((Item)val).description = "On killing an enemy, apply this party member's maximum health as Shield to their position.";
+            ((Item)val).sprite = ResourceLoader.LoadSprite("CordisH.png");
+            ((Item)val).trigger = TriggerCalls.OnKill;
+            ((Item)val).consumeTrigger = TriggerCalls.Count;
+            ((Item)val).unlockableID = (UnlockableID)464448;
+            ((Item)val).itemPools = (ItemPools)1;
+            ((Item)val).shopPrice = 5;
+            ((Item)val).startsLocked = false;
+            val.immediate = false;
+            ((Item)val).namePopup = true;
+            ((Item)val).consumedOnUse = false;
+            val.effects = (Effect[])(object)new Effect[1]
+            {
+            new Effect((EffectSO)ScriptableObject.CreateInstance<ApplyShieldForMaxHealthEffect>(), 1, (IntentType?)null, Slots.Self, (EffectConditionSO)null)
+            };
+            DoubleEffectItem doubleEffectItem = new DoubleEffectItem();
+            ((Item)doubleEffectItem).name = "Outrageous Flame";
+            ((Item)doubleEffectItem).flavorText = "\"It's not over until I say it's over\"";
+            ((Item)doubleEffectItem).description = "When at 1 health, this party member will deal 3 more damage than they usually would. On taking damage reducing this character's health to 1, change all non-Red Pigment costs in their abilities to Red.";
+            ((Item)doubleEffectItem).sprite = ResourceLoader.LoadSprite("CordisD.png");
+            ((Item)doubleEffectItem).trigger = TriggerCalls.OnWillApplyDamage;
+            ((Item)doubleEffectItem).triggerConditions = new EffectorConditionSO[1] { ScriptableObject.CreateInstance<OneHealthDamageBoostCondition>() };
+            ((Item)doubleEffectItem).consumeTrigger = TriggerCalls.Count;
+            ((Item)doubleEffectItem).unlockableID = (UnlockableID)474448;
+            ((Item)doubleEffectItem).itemPools = (ItemPools)1;
+            ((Item)doubleEffectItem).shopPrice = 7;
+            ((Item)doubleEffectItem).startsLocked = false;
+            doubleEffectItem._firsteEffectImmediat = true;
+            ((Item)doubleEffectItem).namePopup = true;
+            ((Item)doubleEffectItem).consumedOnUse = false;
+            doubleEffectItem.firstEffects = (Effect[])(object)new Effect[0];
+            doubleEffectItem._secondImmediateEffect = false;
+            doubleEffectItem.secondPopUp = true;
+            doubleEffectItem.SecondTrigger = new TriggerCalls[4]
+            {
+            TriggerCalls.OnDamaged,
+            TriggerCalls.OnHealed,
+            TriggerCalls.OnMaxHealthChanged,
+            TriggerCalls.OnCombatStart
+            };
+            doubleEffectItem.secondTriggerConditions = new EffectorConditionSO[1] { ScriptableObject.CreateInstance<IsOneHealthCondition>() };
+            doubleEffectItem.secondEffects = (Effect[])(object)new Effect[1]
+            {
+            new Effect((EffectSO)ScriptableObject.CreateInstance<RedCostsAllAbilitiesCasterEffect>(), 1, (IntentType?)null, Slots.Self, (EffectConditionSO)null)
+            };
+            EffectItem val2 = new EffectItem();
+            ((Item)val2).name = "Head of Siren";
+            ((Item)val2).flavorText = "\"This is just a mutated fish...\"";
+            ((Item)val2).description = "At the start of combat, apply Withering as a passive to the Left and Right enemies. This item is destroyed upon activation.";
+            ((Item)val2).sprite = ResourceLoader.LoadSprite("CordisS.png");
+            ((Item)val2).trigger = TriggerCalls.OnCombatStart;
+            ((Item)val2).consumeTrigger = TriggerCalls.Count;
+            ((Item)val2).unlockableID = (UnlockableID)484448;
+            ((Item)val2).itemPools = (ItemPools)4;
+            ((Item)val2).shopPrice = 10;
+            ((Item)val2).startsLocked = false;
+            val2.immediate = false;
+            ((Item)val2).namePopup = true;
+            ((Item)val2).consumedOnUse = true;
+            AddPassiveEffect addPassiveEffect = ScriptableObject.CreateInstance<AddPassiveEffect>();
+            addPassiveEffect._passiveToAdd = Passives.Withering;
+            val2.effects = (Effect[])(object)new Effect[1]
+            {
+            new Effect((EffectSO)addPassiveEffect, 1, (IntentType?)null, Slots.LeftRight, (EffectConditionSO)null)
+            };
+            if (defaultUnlocked)
+            {
+                ((Item)cordisEffectItem).AddItem();
+                ((Item)val).AddItem();
+                ((Item)doubleEffectItem).AddItem();
+                ((Item)val2).AddItem();
+                FoolBossUnlockSystem.AddToFishPool(FoolBossUnlockSystem.GetItemName((Item)(object)val2), 1);
+            }
+            else
+            {
+                FoolBossUnlockSystem.FoolItemPairs foolItemPairs = new FoolBossUnlockSystem.FoolItemPairs(ThisSucksElipses.Chorcer, (Item)(object)val, (Item)(object)cordisEffectItem);
+                foolItemPairs.AddUnlock((BossType)26991, (Item)(object)doubleEffectItem);
+                foolItemPairs.AddUnlock((BossType)55983, (Item)(object)val2, 1);
+                foolItemPairs.Add();
+                new FoolBossUnlockSystem.AchievementSystem.AchieveInfo((Achievement)464448, AchievementUnlockType.TheDivine, "Weaving Flesh", "Unlocked a new item.", ResourceLoader.LoadSprite("CordHeaven.png")).Prepare(ThisSucksElipses.Chorcer.entityID, BossType.Heaven);
+                new FoolBossUnlockSystem.AchievementSystem.AchieveInfo((Achievement)454448, AchievementUnlockType.TheWitness, "Freaky Fashion", "Unlocked a new item.", ResourceLoader.LoadSprite("CordOsman.png")).Prepare(ThisSucksElipses.Chorcer.entityID, BossType.OsmanSinnoks);
+            }
+        }
 
-    public static void Concussion(bool defaultUnlocked)
+        public static void Concussion(bool defaultUnlocked)
     {
       Targetting_ByUnit_Side instance1 = ScriptableObject.CreateInstance<Targetting_ByUnit_Side>();
       instance1.getAllies = false;
